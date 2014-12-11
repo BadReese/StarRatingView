@@ -69,11 +69,15 @@
 }
 
 - (void)userTapRateView:(UITapGestureRecognizer *)gesture {
+    if ([self.canTouched boolValue]) {
+
+
     CGPoint tapPoint = [gesture locationInView:self];
     CGFloat offset = tapPoint.x;
     CGFloat realStarScore = offset / (self.bounds.size.width / self.numberOfStars);
     CGFloat starScore = self.allowIncompleteStar ? realStarScore : ceilf(realStarScore);
     self.scorePercent = starScore / self.numberOfStars;
+    }
 }
 
 - (UIView *)createStarViewWithImage:(NSString *)imageName {
@@ -119,6 +123,14 @@
     }
     
     [self setNeedsLayout];
+}
+
+#pragma  mark - properties
+-(NSNumber *)canTouched{
+    if (!_canTouched) {
+        _canTouched = @0;
+    }
+    return _canTouched;
 }
 
 @end
