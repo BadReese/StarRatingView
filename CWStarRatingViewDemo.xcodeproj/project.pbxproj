@@ -136,6 +136,7 @@
 				7FE672141A0E63B700E2D872 /* CWStarRateView.m */,
 			);
 			name = CWStarRateView;
+			path = ../CWStarRateView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,6 +435,7 @@
 				7FE6720F1A0E63A400E2D872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FE672101A0E63A400E2D872 /* Build configuration list for PBXNativeTarget "CWStarRatingViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +444,7 @@
 				7FE672121A0E63A400E2D872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
