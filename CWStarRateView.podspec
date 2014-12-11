@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'CWStarRatingView'
+  s.name         = 'CWStarRateView'
   s.version      = '0.0.1'
   s.summary      = 'star view for review  on iOS.'
   s.homepage     = 'https://github.com/wangchaoIOS/StarRatingView.git'
