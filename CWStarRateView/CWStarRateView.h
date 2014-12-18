@@ -20,7 +20,6 @@
 @property (nonatomic, assign) BOOL hasAnimation;//是否允许动画，默认为NO
 @property (nonatomic, assign) BOOL allowIncompleteStar;//评分时是否允许不是整星，默认为NO
 @property (nonatomic, strong) NSNumber * canTouched; //默认不能修改@0
-
 @property (nonatomic, weak) id<CWStarRateViewDelegate>delegate;
 
 - (instancetype)initWithFrame:(CGRect)frame numberOfStars:(NSInteger)numberOfStars;
