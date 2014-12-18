@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430DF6911A429E7100C9ACEC /* f17_5_icon_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 430DF68D1A429E7100C9ACEC /* f17_5_icon_star@2x.png */; };
+		430DF6931A429E7100C9ACEC /* g17_5_icon_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 430DF68F1A429E7100C9ACEC /* g17_5_icon_star@2x.png */; };
 		7FE671F01A0E63A400E2D872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE671EF1A0E63A400E2D872 /* main.m */; };
 		7FE671F31A0E63A400E2D872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE671F21A0E63A400E2D872 /* AppDelegate.m */; };
 		7FE671F61A0E63A400E2D872 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE671F51A0E63A400E2D872 /* ViewController.m */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		430DF68D1A429E7100C9ACEC /* f17_5_icon_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "f17_5_icon_star@2x.png"; sourceTree = "<group>"; };
+		430DF68F1A429E7100C9ACEC /* g17_5_icon_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "g17_5_icon_star@2x.png"; sourceTree = "<group>"; };
 		7FE671EA1A0E63A400E2D872 /* CWStarRatingViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWStarRatingViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE671EE1A0E63A400E2D872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FE671EF1A0E63A400E2D872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 		7FE672161A0E642C00E2D872 /* CWStarRateView */ = {
 			isa = PBXGroup;
 			children = (
+				430DF68D1A429E7100C9ACEC /* f17_5_icon_star@2x.png */,
+				430DF68F1A429E7100C9ACEC /* g17_5_icon_star@2x.png */,
 				7FE672171A0E644500E2D872 /* b27_icon_star_gray@2x.png */,
 				7FE672181A0E644500E2D872 /* b27_icon_star_yellow@2x.png */,
 				7FE672131A0E63B700E2D872 /* CWStarRateView.h */,
@@ -221,8 +227,10 @@
 			files = (
 				7FE672191A0E644500E2D872 /* b27_icon_star_gray@2x.png in Resources */,
 				7FE6721A1A0E644500E2D872 /* b27_icon_star_yellow@2x.png in Resources */,
+				430DF6911A429E7100C9ACEC /* f17_5_icon_star@2x.png in Resources */,
 				7FE671F91A0E63A400E2D872 /* Main.storyboard in Resources */,
 				7FE671FE1A0E63A400E2D872 /* LaunchScreen.xib in Resources */,
+				430DF6931A429E7100C9ACEC /* g17_5_icon_star@2x.png in Resources */,
 				7FE671FB1A0E63A400E2D872 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
