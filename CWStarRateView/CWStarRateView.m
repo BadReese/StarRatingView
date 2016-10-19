@@ -8,8 +8,8 @@
 
 #import "CWStarRateView.h"
 
-#define FOREGROUND_STAR_IMAGE_NAME @"f17_5_icon_star"
-#define BACKGROUND_STAR_IMAGE_NAME @"g17_5_icon_star"
+#define FOREGROUND_STAR_IMAGE_NAME @"b27_icon_star_yellow"
+#define BACKGROUND_STAR_IMAGE_NAME @"b27_icon_star_gray"
 #define DEFALUT_STAR_NUMBER 5
 #define ANIMATION_TIME_INTERVAL 0.2
 
@@ -69,15 +69,11 @@
 }
 
 - (void)userTapRateView:(UITapGestureRecognizer *)gesture {
-    if ([self.canTouched boolValue]) {
-
-
     CGPoint tapPoint = [gesture locationInView:self];
     CGFloat offset = tapPoint.x;
     CGFloat realStarScore = offset / (self.bounds.size.width / self.numberOfStars);
     CGFloat starScore = self.allowIncompleteStar ? realStarScore : ceilf(realStarScore);
     self.scorePercent = starScore / self.numberOfStars;
-    }
 }
 
 - (UIView *)createStarViewWithImage:(NSString *)imageName {
@@ -123,14 +119,6 @@
     }
     
     [self setNeedsLayout];
-}
-
-#pragma  mark - properties
--(NSNumber *)canTouched{
-    if (!_canTouched) {
-        _canTouched = @0;
-    }
-    return _canTouched;
 }
 
 @end
